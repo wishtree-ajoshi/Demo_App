@@ -59,7 +59,7 @@ Widget tile(
   String title = '',
 }) {
   return Padding(
-    padding: EdgeInsets.all(10),
+    padding: const EdgeInsets.all(10),
     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       Text("ID: $id"),
       Text("Title: $title"),
