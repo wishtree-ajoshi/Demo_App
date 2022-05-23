@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:post_http_demo/main.dart';
 import 'package:post_http_demo/services/http_requests.dart';
-import '../models/album_model.dart';
 
 class GetData extends StatefulWidget {
   const GetData({Key? key}) : super(key: key);

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 TextEditingController timeController = TextEditingController();
 
+/// Current Time will be stored in the variable...
 String onlyTime = "";
 getTime() {
   return (onlyTime =

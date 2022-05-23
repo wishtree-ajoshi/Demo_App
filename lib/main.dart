@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:post_http_demo/methods/post.dart';
-import 'package:post_http_demo/models/provider_time_model.dart';
-import 'package:post_http_demo/services/clock.dart';
-import 'package:post_http_demo/services/provider_time.dart';
-import 'package:provider/provider.dart';
 
 import 'menu.dart';
 
@@ -18,6 +13,7 @@ void main() {
   runApp(const MyApp());
 }
 
+///Url to execute sttp requests..
 String url = 'https://jsonplaceholder.typicode.com/albums';
 
 class _MyAppState extends State<MyApp> {
